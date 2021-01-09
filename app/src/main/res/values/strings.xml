@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HotelTrivago</string>
+    <string name="add_client_to_db">Пополнить базу клиентов</string>
+    <string name="see_db">Просмотреть список клиентов</string>
+    <string name="client_fname">Имя клиента</string>
+    <string name="client_lname">Фамилия клиента</string>
+    <string name="client_age">Возраст</string>
+    <string name="client_sex">Пол</string>
+    <string name="ready">Готово</string>
+    <string name="client_room">Комната</string>
+    <string name="fill_the_gaps">Заполните все поля</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="delete">Удалить</string>
+    <string name="Quit">Вы уверены, что хотите выйти?</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/client_fname_et"
+        android:hint="@string/client_fname"
+        android:background="@drawable/views"
+        android:paddingVertical="12dp"
+        android:inputType="text"
+        android:paddingLeft="6dp">
+    </EditText>
+
+    <EditText
+        android:layout_below="@+id/client_fname_et"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/client_lname_et"
+        android:hint="@string/client_lname"
+        android:background="@drawable/views"
+        android:paddingVertical="8dp"
+        android:inputType="text"
+        android:paddingLeft="6dp">
+    </EditText>
+
+    <EditText
+        android:layout_below="@+id/client_lname_et"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/client_age"
+        android:id="@+id/client_age_et"
+        android:background="@drawable/views"
+        android:paddingVertical="8dp"
+        android:inputType="numberDecimal"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:maxLength="3">
+    </EditText>
+
+    <Spinner
+        android:id="@+id/client_sex_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/client_lname_et"
+        android:layout_marginTop="8dp"
+        android:layout_above="@+id/ready_button"
+        android:layout_toStartOf="@+id/client_room_et"
+        android:layout_toEndOf="@+id/client_age_et"
+        android:background="@drawable/views"
+        android:paddingVertical="8dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:hint="@string/client_sex"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+
+    <EditText
+        android:layout_below="@+id/client_lname_et"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/client_room"
+        android:id="@+id/client_room_et"
+        android:background="@drawable/views"
+        android:paddingVertical="8dp"
+        android:inputType="numberDecimal"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:layout_alignParentEnd="true"
+        android:maxLength="3">
+    </EditText>
+
+    <Button
+        android:layout_below="@+id/client_age_et"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ready"
+        android:id="@+id/ready_button"
+        android:background="@drawable/views"
+        android:paddingVertical="8dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp">
+    </Button>
+
+
+</RelativeLayout>

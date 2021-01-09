@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/views">
+
+    <ImageView
+        android:paddingTop="6dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profile_img"
+        android:id="@+id/image">
+    </ImageView>
+
+    <!--
+   Здесь отображается имя и фамилия
+    -->
+    <TextView
+        android:paddingTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/image"
+        android:id="@+id/full_name_tv"
+        android:textSize="22dp"
+        android:text="Full_name"
+        android:textColor="@color/black"
+        android:paddingStart="8dp"
+        ></TextView>
+
+
+    <!--
+   Здесь отображаются возраст, пол и номер комнаты
+    -->
+    <TextView
+        android:layout_below="@id/full_name_tv"
+        android:paddingTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/image"
+        android:id="@+id/asr_textView"
+        android:textSize="16dp"
+        android:text="Full_name"
+        android:textColor="@color/black"
+        android:paddingStart="8dp"
+        ></TextView>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_client_to_db"
+        android:id="@+id/new_client_button"
+        android:background="@drawable/views"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/new_client_button"
+        android:background="@drawable/views"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/see_db"
+        android:id="@+id/see_clients_button"
+        >
+
+    </Button>
+
+
+
+</RelativeLayout>
